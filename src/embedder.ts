@@ -115,6 +115,9 @@ const EMBEDDING_DIMENSIONS: Record<string, number> = {
   // Jina v5
   "jina-embeddings-v5-text-small": 1024,
   "jina-embeddings-v5-text-nano": 768,
+  // 本地化模型 (Ollama)
+  "jina-embeddings-v2-base-zh": 768,
+  "bge-small-zh-v1.5": 512,
 };
 
 // ============================================================================

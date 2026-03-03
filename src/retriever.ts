@@ -86,7 +86,7 @@ export const DEFAULT_RETRIEVAL_CONFIG: RetrievalConfig = {
   vectorWeight: 0.7,
   bm25Weight: 0.3,
   minScore: 0.3,
-  rerank: "cross-encoder",
+  rerank: "lightweight",
   candidatePoolSize: 20,
   recencyHalfLifeDays: 14,
   recencyWeight: 0.10,
